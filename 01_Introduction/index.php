@@ -8,6 +8,10 @@
       <?php
          echo "<h1>Hello, PHP!</h1>";
       ?>
-   
+
+      <?  echo "Var 2"?>
+      <script language = "php"> echo "Var 3" </script>
+
+
    </body>
 </html>
