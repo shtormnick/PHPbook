@@ -1,4 +1,5 @@
 # Syntax Overview
+[code](index.php)
 ## 1!
 самый распространенный стиль PHP-тегов
 ```
