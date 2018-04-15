@@ -77,7 +77,7 @@ _______________________
    </body>
 </html>
 ```
-Выдаст Loop stopped at i = 10
+Выдаст ```Loop stopped at i = 10```
 ________________
 ### foreach loop statement
 
@@ -100,11 +100,13 @@ ________________
 </html>
 ```
 Выдаст
+```
 Value is 1
 Value is 2
 Value is 3
 Value is 4
 Value is 5
+```
 _______________
 ### break statement
 
@@ -129,7 +131,7 @@ _______________
    </body>
 </html>
 ```
-Выдаст Loop stopped at i = 3
+Выдаст ```Loop stopped at i = 3```
 ____________________________
 ### continue statement
 
@@ -155,7 +157,9 @@ ____________________________
 </html>
 ```
 выдаст
+```
 Value is 1
 Value is 2
 Value is 4
 Value is 5
+```
