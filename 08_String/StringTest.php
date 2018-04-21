@@ -18,7 +18,7 @@ class StringTest extends TestCase
 
     public function test_strposition2()
     {
-        $this->assertEquals( false,strpos('hello world', 'wrld'));
+        $this->assertFalse( strpos('hello world', 'wrld'));
 
     }
 
@@ -30,7 +30,7 @@ class StringTest extends TestCase
 
     public function test_strposition4()
     {
-        $this->assertEquals(0,strpos('world', 'h'));
+        $this->assertEquals(2,strpos('hello world', 'llo', 2));
 
     }
 }
