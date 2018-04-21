@@ -91,7 +91,7 @@ ________________
       <?php
          $array = array( 1, 2, 3, 4, 5);
 
-         foreach( $array as $value ) {
+         foreach( $array as $key=>$value ) {
             echo "Value is $value <br />";
          }
       ?>
@@ -163,3 +163,4 @@ Value is 2
 Value is 4
 Value is 5
 ```
+
