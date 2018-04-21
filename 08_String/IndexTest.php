@@ -7,7 +7,37 @@
  */
 
 
-class IndexTest extends PHPUnit_Framework_TestCase
+
+class IndexTest extends \PHPUnit\Framework\TestCase
 {
+    /**
+     * @test
+     *
+     */
+    public function test_strlen()
+    {
+        $this->assertEquals(12,strlen('Hello World!'),'не правильно;' );
+    }
+    public function test_strlen1()
+    {
+      $this->assertEquals(2,strlen(12));
+    }
+
+    public function test_strlen2()
+    {
+        $this->assertEquals(0,strlen(''));
+    }
+
+    /**
+     *   @expectedException Exception
+     *   @expectedExceptionMessage my message
+     */
+    public function test_strlen3()
+    {
+        throw new Exception ('my message');
+    }
+
+
 
 }
+

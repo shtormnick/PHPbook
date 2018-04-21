@@ -1,4 +1,13 @@
 {
+    "name": "lorix/ph-pbook",
+    "authors": [
+        {
+            "name": "lorix",
+            "email": "foxred324@gmail.com"
+        }
+    ],
+    "require": {},
+
     "require-dev": {
         "phpunit/phpunit": "^6.5"
     }
