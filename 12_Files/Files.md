@@ -95,7 +95,7 @@
    </body>
 </html>
 ```
-Это приведет к следующему результату: ![alt txt] (https://www.tutorialspoint.com/php/images/reading_file.jpg)
+Это приведет к следующему результату: ![alt text](https://www.tutorialspoint.com/php/images/reading_file.jpg)
 
 ### Запись Файла 
 
@@ -149,4 +149,4 @@
    </body>
 </html>
 ```
-Это приведет к следующему результату: ![alt txt] (https://www.tutorialspoint.com/php/images/writing_file.jpg)
+Это приведет к следующему результату: ![alt text](https://www.tutorialspoint.com/php/images/writing_file.jpg)
