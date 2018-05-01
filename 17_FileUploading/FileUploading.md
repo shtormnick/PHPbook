@@ -63,7 +63,7 @@
    </body>
 </html>
 ```
-Вот что у нас получилось: - [!alt text] (https://www.tutorialspoint.com/php/images/upload_form.jpg)
+Вот что у нас получилось: - [! alt text] (https://www.tutorialspoint.com/php/images/upload_form.jpg)
 
 ### Создание скрипта загрузки
 
@@ -125,4 +125,4 @@
    </body>
 </html>
 ```
-И у нас получилось вот это :[!alt text] (https://www.tutorialspoint.com/php/images/upload_script.jpg)
+И у нас получилось вот это :[! alt text] (https://www.tutorialspoint.com/php/images/upload_script.jpg)
