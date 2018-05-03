@@ -22,6 +22,28 @@
 
             addSix( $orignum );
             echo "Original Value is $orignum<br />";
+
+            echo '-----------------------------------';
+
+            class Chelovek{
+                public $wait = 10;
+            }
+
+            function addFiveClass($num) {
+                $num->wait += 5;
+            }
+
+            function addSixClass(&$num) {
+                $num->wait += 6;
+            }
+
+            $chelovek = new Chelovek();
+            addFiveClass($chelovek);
+
+            var_dump($chelovek);
+
+            addSixClass( $orignum );
+            var_dump($chelovek);
         ?>
 
     </body>
