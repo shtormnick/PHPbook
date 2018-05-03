@@ -23,7 +23,7 @@
             addSix( $orignum );
             echo "Original Value is $orignum<br />";
 
-            echo '-----------------------------------';
+            echo '-----------------------------------<br/>';
 
             class Chelovek{
                 public $wait = 10;
