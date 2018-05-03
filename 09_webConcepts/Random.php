@@ -6,16 +6,16 @@
         $num = rand( 1, 4 );
 
             switch( $num ) {
-                case 1: $image_file = "/php/images/logo.png";
+                case 1: $image_file = "307600.jpg";
                     break;
 
-                case 2: $image_file = "/php/images/php.jpg";
+                case 2: $image_file = "24325386.jpg";
                     break;
 
-                case 3: $image_file = "/php/images/logo.png";
+                case 3: $image_file = "download.jpeg";
                     break;
 
-                case 4: $image_file = "/php/images/php.jpg";
+                case 4: $image_file = "download(1).jpeg";
                     break;
             }
             echo "Random Image : <img src=$image_file />";
