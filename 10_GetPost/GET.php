@@ -2,6 +2,8 @@
     if( $_GET["name"] || $_GET["age"] ) {
         echo "Welcome ". $_GET['name']. "<br />";
         echo "You are ". $_GET['age']. " years old.";
+        echo "<br />";
+        print_r($_SERVER['QUERY_STRING']);
 
         exit();
     }

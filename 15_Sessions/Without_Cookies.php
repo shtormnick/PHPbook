@@ -7,6 +7,8 @@
         $_SESSION['counter']++;
     }
 
+    echo $_COOKIE['PHPSESSID'];
+
     $msg = "You have visited this page ".  $_SESSION['counter'];
     $msg .= "in this session.";
 
@@ -16,5 +18,5 @@
 <p>
     To continue  click following link <br />
 
-    <a  href = "nextpage.php?<?php echo htmlspecialchars(SID); ?>">
+    <a  href = "nextpage.php?<?php echo htmlspecialchars(SID); ?>" > fdgdfg</a>
 </p>

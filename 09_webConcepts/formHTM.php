@@ -8,16 +8,10 @@
             echo "You are ". $_POST['age']. " years old.";
 
             exit();
+
         }
+        print_r($_SERVER);
+        $newURL=$_SERVER['HTTP_REFERER'];
+        header('Location: '.$newURL);
+
 ?>
-<html>
-    <body>
-
-        <form action = "<?php $_PHP_SELF ?>" method = "POST">
-            Name: <input type = "text" name = "name" />
-            Age: <input type = "text" name = "age" />
-            <input type = "submit" />
-        </form>
-
-    </body>
-</html>

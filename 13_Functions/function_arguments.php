@@ -42,7 +42,7 @@
 
             var_dump($chelovek);
 
-            addSixClass( $orignum );
+            addSixClass( $chelovek );
             var_dump($chelovek);
         ?>
 
