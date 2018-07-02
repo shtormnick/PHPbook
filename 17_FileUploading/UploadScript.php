@@ -19,6 +19,7 @@
 
         if(empty($errors)==true) {
             move_uploaded_file($file_tmp,"images/".$file_name);
+            print_r($file_tmp);
             echo "Success";
         }else{
             print_r($errors);
